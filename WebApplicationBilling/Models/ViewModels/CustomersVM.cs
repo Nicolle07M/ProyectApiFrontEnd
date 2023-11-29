@@ -7,5 +7,6 @@ namespace WebApplicationBilling.Models.ViewModels
     {
         public IEnumerable<SelectListItem> ListCustomers { get; set; }
         public CustomerDTO Customer { get; set; }
+
     }
 }
