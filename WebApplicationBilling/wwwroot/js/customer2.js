@@ -29,6 +29,7 @@ function initializeDataTable(customers) {
             { title: "Nombre", data: "firstName", className: "column-name" },
             { title: "Apellido", data: "lastName", className: "column-name" },
             { title: "País", data: "country", className: "column-country" },
+            { title: "Ciudad", data: "city", className: "column-country" },
             { title: "Teléfono", data: "phone", className: "column-phone" },
             {
                 title: "Acciones",
