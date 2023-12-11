@@ -23,14 +23,14 @@ function initializeDataTable(products) {
 
     $(table).DataTable({
         responsive: true,
-        data: customers,
+        data: products,
         columns: [
             { title: "ID", data: "id", className: "column-id" },
-            { title: "ProductName", data: "productname", className: "column-productname" },
-            { title: "SupplierId", data: "supplierid", className: "column-supplierid" },
-            { title: "UnitPrice", data: "unitprice", className: "column-unitprice" },
+            { title: "ProductName", data: "productName", className: "column-productname" },
+            { title: "SupplierId", data: "supplierId", className: "column-supplierid" },
+            { title: "UnitPrice", data: "unitPrice", className: "column-unitprice" },
             { title: "Package", data: "package", className: "column-package" },
-            { title: "IsDiscontinued", data: "isdiscontinued", className: "column-isdiscontinued" },
+            { title: "IsDiscontinued", data: "isDiscontinued", className: "column-isdiscontinued" },
             {
                 title: "Acciones",
                 data: "id",

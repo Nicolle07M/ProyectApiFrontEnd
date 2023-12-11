@@ -26,9 +26,9 @@ function initializeDataTable(suppliers) {
         data: suppliers,
         columns: [
             { title: "ID", data: "id", className: "column-id" },
-            { title: "CompanyName", data: "companyname", className: "column-companyname" },
-            { title: "ContactName", data: "contactname", className: "column-contactname" },
-            { title: "ContactTitle", data: "contacttitlery", className: "column-contacttitle" },
+            { title: "CompanyName", data: "companyName", className: "column-companyName" },
+            { title: "ContactName", data: "contactName", className: "column-contactName" },
+            { title: "ContactTitle", data: "contactTitle", className: "column-contactTitle" },
             { title: "City", data: "city", className: "column-city" },
             { title: "Country", data: "country", className: "column-country" },
             { title: "Phone", data: "phone", className: "column-phone" },
