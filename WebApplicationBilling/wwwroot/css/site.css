@@ -21,31 +21,32 @@ body {
   margin-bottom: 60px;
 }
 #productsContainer {
-    width:100%;
-    background-color: #f2e6cf;
-    border-radius:5px;
-    margin:5px; 
+    width: 100%;
+    background-color: #376080;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 #productsTable_filter {
     height: 40px;
     width: 275px;
-    background-color: #258cfb;
+    background-color: #e2e2e2;
     border-radius: 5px;
     margin: 5px;
     justify-items: center;
     align-content: center;
-    padding-right:12px;
+    padding-right: 12px;
     padding-top: 4px
 }
 #productsTable_length {
-    height:30px;
-    width: 150px ;
-    background-color: #9cd2d3;
+    height: 30px;
+    width: 150px;
+    background-color: #e2e2e2;
     border-radius: 5px;
     margin: 5px;
-    font-size:small;
-    padding-left:10px;
-    padding-top:4px
+    font-size: small;
+    padding-left: 10px;
+    padding-top: 4px
 }
 .nav-item{
     text-align:center;
@@ -68,17 +69,20 @@ container p-4 {
     padding-left:220px;
     text-align:center;
 }
+
+/*SUPPLIER*/
 #suppliersContainer {
-    width: 100%;
-    background-color: #f2e6cf;
+    width: 110%;
+    background-color: #376080;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 #suppliersTable_filter {
     height: 40px;
     width: 275px;
-    background-color: #258cfb;
+    background-color: #e2e2e2;
     border-radius: 5px;
     margin: 5px;
     justify-items: center;
@@ -90,24 +94,27 @@ container p-4 {
 #suppliersTable_length {
     height: 30px;
     width: 150px;
-    background-color: #9cd2d3;
+    background-color: #e2e2e2;
     border-radius: 5px;
     margin: 5px;
     font-size: small;
     padding-left: 10px;
     padding-top: 4px
 }
+
+/*CUSTOMERS*/
 #customersContainer {
-    width: 100%;
-    background-color: #f2e6cf;
+    width: 105%;
+    background-color: #376080;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 #customersTable_filter {
     height: 40px;
     width: 275px;
-    background-color: #258cfb;
+    background-color: #e2e2e2;
     border-radius: 5px;
     margin: 5px;
     justify-items: center;
@@ -119,24 +126,27 @@ container p-4 {
 #customersTable_length {
     height: 30px;
     width: 150px;
-    background-color: #9cd2d3;
+    background-color: #e2e2e2;
     border-radius: 5px;
     margin: 5px;
     font-size: small;
     padding-left: 10px;
     padding-top: 4px
 }
+
+/*ORDERS*/
 #ordersContainer {
     width: 100%;
-    background-color: #f2e6cf;
+    background-color: #376080;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 #ordersTable_filter {
     height: 40px;
     width: 275px;
-    background-color: #258cfb;
+    background-color: #e2e2e2;
     border-radius: 5px;
     margin: 5px;
     justify-items: center;
@@ -146,14 +156,31 @@ container p-4 {
 }
 
 #ordersTable_length {
-    height: 29px;
+    height: 30px;
     width: 150px;
-    background-color: #9cd2d3;
+    background-color: #e2e2e2;
     border-radius: 5px;
     margin: 5px;
     font-size: small;
     padding-left: 10px;
     padding-top: 4px
+}
+
+/*CREAR CUSTOMER*/
+.card {
+    background-color: #376080; /* Cambia el color de fondo de la tarjeta al azul deseado */
+    color: #fff; /* Cambia el color del texto dentro de la tarjeta */
+    border: 1px solid #007bff; /* Opcional: Añade un borde alrededor de la tarjeta */
+}
+
+.form-control {
+    background-color: #fff; /* Cambia el color de fondo del campo de entrada */
+    color: #495057; /* Cambia el color del texto dentro del campo de entrada */
+}
+
+.btn-success {
+    background-color: #28a745; /* Cambia el color de fondo del botón de éxito */
+    color: #fff; /* Cambia el color del texto dentro del botón */
 }
 
 
