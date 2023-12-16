@@ -7,74 +7,32 @@
 
 
 
-<div class="container p-4">
+<div class="container mt-5">
+    <div class="card mx-auto" style="max-width: 500px;">
+        <div class="card-header">
+            <h5 class="card-title">Crear una orden</h5>
+        </div>
+        <div class="card-body">
+            <form method="post" asp-action="Create" enctype="multipart/form-data">
 
-    <div class="row">
-        <div class="col-12">
-            <h2 class="text-primary">Crear una Orden</h2>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label asp-for="CustomerId">Customer ID</label>
+                        <input asp-for="CustomerId" class="form-control" placeholder="Ingrese ID de customer" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="TotalAmount">TotalAmount</label>
+                        <input asp-for="TotalAmount" class="form-control" placeholder="Ingrese Monto total" />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-success btn-block mt-2">Crear Cliente</button>
+                        <a asp-action="Index" class="btn btn-secondary btn-block mt-2">Volver</a>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
-    <br />
-    <br />
-
-    <div class="row">
-        <form method="post" asp-action="Create" enctype="multipart/form-data">
-
-            @*  <div class="form-group row">
-            <div class="col-4">
-            <label asp-for="id" typ></label>
-            </div>
-            <div class="col-8">
-            <input asp-for="id"  type="hidden" class="form-control" />
-            </div>
-            </div> *@
-
-            @*<div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="OrderDate">Fecha de la orden</label>
-                </div>
-                <div class="col-8">
-                    <input asp-for="OrderDate" class="form-control" />
-                </div>
-            </div>*@
-
-            @*<div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="OrderNumber">Numero de compra</label>
-                </div>
-                <div class="col-8">
-                    <input asp-for="OrderNumber" class="form-control" />
-                </div>
-            </div>*@
-
-            <div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="CustomerId">CustomerId</label>
-                </div>
-                <div class="col-8">
-                    <input asp-for="CustomerId" class="form-control" />
-                </div>
-            </div>
-
-            <div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="TotalAmount"></label>
-                </div>
-                <div class="col-8">
-                    <input asp-for="TotalAmount" class="form-control" />
-                </div>
-            </div>
-            <br />
-            <br />
-            <div class="form-group row">
-                <div class="col">
-                    <button type="submit" class="btn btn-primary form-control">Crear Orden</button>
-                </div>
-                <div class="col">
-                    <a asp-action="Index">Volver</a>
-                </div>
-            </div>
-        </form>
-    </div>
-
 </div>
+
